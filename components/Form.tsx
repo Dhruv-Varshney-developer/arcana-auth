@@ -23,7 +23,7 @@ export const Form: FC = () => {
 
     const handleTransactionSubmit = async (movie: Movie) => {
         if (!publicKey) {
-            alert('Please connect your wallet!')
+            alert('Please login')
             return
         }
 
